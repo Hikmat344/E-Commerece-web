@@ -1,5 +1,7 @@
 import Image from "next/image";
 import prod1 from '/public/images/prod1.jpg';
+import prod2 from '/public/images/prod2.jpg';
+import prod3 from '/public/images/prod3.jpg';
 
 export default function Products() {
   return (
@@ -9,19 +11,25 @@ export default function Products() {
             <h2 className="flex justify-center text-black mt-5 text-4xl font-bold ">Check What We Have</h2>
         </div>
 
-        <div className="flex space-x-5 mt-10 mx-20">
-            <div className=" h-32 hover:scale-110 shadow-md shadow-slate-500 group duration-500">
+        <div className="flex space-x-12 mt-10 mx-20">
+            <div className=" hover:scale-110 shadow-md shadow-slate-500 group duration-500">
                 <Image src={prod1} width={350} height={350} alt="product1" />
-                <p className="justify-center text-black mt-3 text-1xl font-bold">Brushed Raglan Sweatshirt</p>
-                <span className="font-bold">$195</span>
+                <p className="justify-center text-black mt-3 text-1xl font-bold text-center">Brushed Raglan Sweatshirt</p>
+                <p className="justify-center font-bold text-center">$195</p>
                
             </div>
             
-            <div>
-
+            <div className="  hover:scale-110 shadow-md shadow-slate-500 group duration-500 ">
+                <Image src={prod2} width={350} height={350} alt="tie dress"/>
+                <p className="justify-center text-black text-1xl font-bold mt-3 text-center">Cameryn Sash Tie Dress</p>
+                <p className="justify-center font-bold text-center">$545</p>
+               
             </div>
-            <div>
-
+            <div className=" hover:scale-110 shadow-md shadow-slate-500 group duration-500 ">
+                <Image src={prod3} width={350} height={350} alt="sweatshirt" />
+                <p className="justify-center text-black mt-3 text-1xl font-bold text-center">Flex Sweatshirt</p>
+                <p className="justify-center font-bold text-center">$175</p>
+               
             </div>
 
         </div>

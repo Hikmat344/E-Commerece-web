@@ -38,7 +38,7 @@ export function Hero() {
       </div >
       </div>
       <div className="bg-orange-100 w-25 h-25 rounded-full mt-8 mx-5 ">
-        <Image className="w-30 h-30 " decoding="async" src={header} alt="header" loading="lazy" ></Image>
+        <Image width={600} height={600} decoding="async" src={header} alt="header" loading="lazy" ></Image>
       </div>
 
       </div>
