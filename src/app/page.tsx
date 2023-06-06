@@ -16,7 +16,7 @@ export default function Home() {
     <Products />
     <Difference />
     <Newsletter />
-    <Footer />
+    
     </>
   )
 }
