@@ -2,8 +2,18 @@ import Image from "next/image";
 import prod1 from '/public/images/prod1.jpg';
 import prod2 from '/public/images/prod2.jpg';
 import prod3 from '/public/images/prod3.jpg';
+// import {client } from "@/lib/sanityClients" ;
+
+// export const getProducts = async () =>{
+//      const res = await client.fetch(`*[_type == "product"]`);
+//      return res
+// }
 
 export default function Products() {
+
+    // const data = await getProducts();
+    // console.log(data);
+
   return (
     <div className="mt-20">
         <div className="">
@@ -31,6 +41,8 @@ export default function Products() {
                 <p className="justify-center font-bold text-center">$175</p>
                
             </div>
+
+            
 
         </div>
 

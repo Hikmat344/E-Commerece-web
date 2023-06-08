@@ -11,6 +11,8 @@ import {
     MenubarShortcut,
     MenubarTrigger,
   } from "../ui/menubar"
+  
+import Link from 'next/link';
 
 
 const  Navbar= () => {
@@ -23,7 +25,7 @@ const  Navbar= () => {
     <MenubarTrigger>Female</MenubarTrigger>
     <MenubarTrigger>Male</MenubarTrigger>
     <MenubarTrigger>Kids</MenubarTrigger>
-    <MenubarTrigger>All Production</MenubarTrigger>
+    <MenubarTrigger> <Link href="./Prodpage.tsx">All Production</Link></MenubarTrigger>
     <div className='flex border-none'>
     <Search className="bg-white rounded-l" />
     <input type='text'  placeholder='what you are looking for  ' className='rounded-r' />

@@ -27,17 +27,17 @@ export function Hero() {
 
       <div className="pt-5 mt-6">
       <Button>
-            <ShoppingCart className="mr-2 h-4 w-4" />  Start Shopping
+            <ShoppingCart className="mr-2 h-4 w-4 sm:w-auto" />  Start Shopping
         </Button>
       </div>
-      <div className="flex mt-10 py-10 gap-x-8">
+      <div className="flex flex-wrap mt-10 py-10 gap-x-8 sm:w-auto sm:gap-y-3">
       <Image className="w-100 h-35 " decoding="async" src={br1} alt="brandlogo" loading="lazy" ></Image>
       <Image className="w-100 h-35" decoding="async" src={br2} alt="brandlogo" loading="lazy" ></Image>
       <Image className="w-100 h-35 " decoding="async" src={br3} alt="brandlogo" loading="lazy" ></Image>
       <Image className="w-100 h-35 " decoding="async" src={br4} alt="brandlogo" loading="lazy" ></Image>
       </div >
       </div>
-      <div className="bg-orange-100 w-25 h-25 rounded-full mt-8 mx-5 sm:hidden">
+      <div className="flex-shrink-0 bg-orange-100 w-25 h-25 rounded-full mt-8 mx-5 hidden sm:block ">
         <Image width={600} height={600} decoding="async" src={header} alt="header" loading="lazy" ></Image>
       </div>
 
