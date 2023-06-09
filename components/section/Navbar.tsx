@@ -32,7 +32,7 @@ const Navbar = () => {
         <MenubarMenu>
         <MenubarTrigger>Female</MenubarTrigger>
         <MenubarTrigger>Male</MenubarTrigger>
-        <MenubarTrigger>Kids</MenubarTrigger>
+        <MenubarTrigger><Link>Kids</Link></MenubarTrigger>
         <MenubarTrigger> <Link href="./productspage">All Production</Link></MenubarTrigger>
         <div className='flex border-none'>
         <Search className="bg-white rounded-l" />
