@@ -1,7 +1,7 @@
 import Image from "next/image";
-import prom1 from '/public/images/prom1.jpg';
-import prom3 from '/public/images/prom3.jpg';
-import prom4 from '/public/images/prom4.jpg';
+import prom1 from '/public/images/prom1.jpg'
+import prom3 from '/public/images/prom3.jpg'
+import prom4 from '/public/images/prom4.jpg'
 
 
 export default function Promotion() {
