@@ -21,7 +21,7 @@ export default function Products() {
             <h2 className="flex justify-center text-black mt-5 text-4xl font-bold ">Check What We Have</h2>
         </div>
 
-        <div className="flex space-x-12 mt-10 mx-20">
+        <div className="flex space-x-12 mt-10 mx-24 max-w-auto">
             <div className=" hover:scale-110 shadow-md shadow-slate-500 group duration-500">
                 <Image src={prod1} width={350} height={350} alt="product1" />
                 <p className="justify-center text-black mt-3 text-1xl font-bold text-center">Brushed Raglan Sweatshirt</p>

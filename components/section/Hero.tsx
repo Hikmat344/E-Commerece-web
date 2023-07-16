@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export function Hero() {
     return (
-      <div className="flex mx-6 justify-between">
+      <div className="flex mx-6 justify-between justify-center max-w-auto">
         <div className="flex justify-start text-justify flex-col py-12 px-5 max-w-md mx-20">
           <span className="bg-cyan-200 h-8 w-24 mt-12 border-6 flex items-center justify-center text-blue-600 font-600 rounded-sm ">Sale 70%</span>
         <div className="mt-7 ">
@@ -27,7 +27,7 @@ export function Hero() {
 
       <div className="pt-5 mt-6">
       <Button>
-            <ShoppingCart className="mr-2 h-4 w-4 sm:w-auto" />  Start Shopping
+            <ShoppingCart className="mr-2 h-4 w-4 sm:w-auto " />  Start Shopping
         </Button>
       </div>
       <div className="flex flex-wrap mt-10 py-10 gap-x-8 sm:w-auto sm:gap-y-3">

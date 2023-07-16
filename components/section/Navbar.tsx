@@ -24,15 +24,15 @@ const Navbar = () => {
   };
 
   return (
-    <div className='h-12 py-10'>
-      <Menubar className=' gap-x-10  text-sm '>
-        <div className='py-5 px-8 '>
+    <div className='h-12 py-5 mx-18 max-w-auto justify-center'>
+      <Menubar className=' gap-x-10  text-sm  border-none'>
+        <div className='py-5 px-10 '>
           <Image src={Logo} className='items-center mx-20 ' w-140 h-25 alt="logo" loading='lazy' ></Image>
         </div>
         <MenubarMenu>
-        <MenubarTrigger>Female</MenubarTrigger>
-        <MenubarTrigger>Male</MenubarTrigger>
-        <MenubarTrigger><Link>Kids</Link></MenubarTrigger>
+        <MenubarTrigger><Link href={"#"}>Female</Link></MenubarTrigger>
+        <MenubarTrigger><Link href={"#"}>Male</Link></MenubarTrigger>
+        <MenubarTrigger><Link href={"#"}>Kids</Link></MenubarTrigger>
         <MenubarTrigger> <Link href="./productspage">All Production</Link></MenubarTrigger>
         <div className='flex border-none'>
         <Search className="bg-white rounded-l" />
@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <div className="p-2 rounded-full bg-gray-300  px-2 ">
             <ShoppingCart className="relative" />
-            <span className="absolute top-3 right-40.3 h-5 w-5 text-center rounded-full bg-[#f02d34] text-white">
+            <span className="absolute top-3 right-35 h-5 w-5 text-center rounded-full bg-[#f02d34] text-white">
               0
             </span>
           </div>

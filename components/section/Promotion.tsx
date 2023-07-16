@@ -42,7 +42,7 @@ export default function Promotion() {
 
                     </div>
                     <div>
-                        <Image className="mt-5" src={prom3} width={250} height={250} alt="shirt image" />
+                        <Image className="mt-14" src={prom3} width={250} height={250} alt="shirt image" />
                     </div>
 
                 </div>
@@ -54,7 +54,7 @@ export default function Promotion() {
 
                     </div>
                     <div>
-                        <Image className="mt-6" src={prom4} width={250} height={250} alt="shirt image" />
+                        <Image className="mt-14" src={prom4} width={250} height={250} alt="shirt image" />
                     </div>
 
                 </div>
