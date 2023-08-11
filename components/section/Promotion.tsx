@@ -38,11 +38,11 @@ export default function Promotion() {
                 <div className="flex flex-col h-110 max-w-sm w-auto bg-orange-100 shadow-md shadow-slate-500">
                     <div className=" items-center mt-5">
                         <p className="justify-start px-8 text-xs">Flex Sweatshirt</p>
-                        <p className="px-8 mt-2"><span className="line-through">$100.00</span> <span className="font-bold px-1">$75.00</span></p>
+                        <p className="px-8 mt-2 mb-2"><span className="line-through">$100.00</span> <span className="font-bold px-1">$75.00</span></p>
 
                     </div>
                     <div>
-                        <Image className="mt-14" src={prom3} width={250} height={250} alt="shirt image" />
+                        <Image className="mt-6" src={prom3} width={250} height={250} alt="shirt image" />
                     </div>
 
                 </div>
@@ -54,7 +54,7 @@ export default function Promotion() {
 
                     </div>
                     <div>
-                        <Image className="mt-14" src={prom4} width={250} height={250} alt="shirt image" />
+                        <Image className="mt-6" src={prom4} width={250} height={250} alt="shirt image" />
                     </div>
 
                 </div>

@@ -2,17 +2,19 @@ import Image from "next/image";
 import prod1 from '/public/images/prod1.jpg';
 import prod2 from '/public/images/prod2.jpg';
 import prod3 from '/public/images/prod3.jpg';
-// import {client } from "@/lib/sanityClients" ;
+import {client } from "@/lib/sanityClients" ;
 
-// export const getProducts = async () =>{
-//      const res = await client.fetch(`*[_type == "product"]`);
-//      return res
-// }
+export const getProducts = async () =>{
+     const res = await client.fetch(`*[_type == "category"]`);
+     console.log(res);
+     return res
 
-export default function Products() {
+}
 
-    // const data = await getProducts();
-    // console.log(data);
+export default async function Products() {
+
+    const data = await getProducts();
+    console.log(data);
 
   return (
     <div className="mt-20">
@@ -21,7 +23,7 @@ export default function Products() {
             <h2 className="flex justify-center text-black mt-5 text-4xl font-bold ">Check What We Have</h2>
         </div>
 
-        <div className="flex space-x-12 mt-10 mx-24 max-w-auto">
+        <div className="flex space-x-12 mt-10 mx-24 max-w-auto w-full ">
             <div className=" hover:scale-110 shadow-md shadow-slate-500 group duration-500">
                 <Image src={prod1} width={350} height={350} alt="product1" />
                 <p className="justify-center text-black mt-3 text-1xl font-bold text-center">Brushed Raglan Sweatshirt</p>

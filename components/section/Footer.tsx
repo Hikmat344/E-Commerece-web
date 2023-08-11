@@ -82,7 +82,7 @@ export const Footer = () => {
         <div className="mt-40 bg-black w-full h-0.5" />
 
         <div className="flex mt-10 mx-20 items-center justify-around mb-5">
-          <p>Copyright © 2022 Dine Market</p>
+          <p>Copyright © 2023 Dine Market</p>
           <p>Design by. <a className="font-bold" href="https://hikmeedev.vercel.app/">Hikmat Ullah</a></p>
           <p>Code by. <a className="font-bold" href="https://github.com/Hikmee">Hikmat on github</a></p>
 
