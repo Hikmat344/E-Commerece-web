@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export function Hero() {
   return (
-    <div className="flex flex-col gap-y-10 lg:flex-row mx-5 justify-between max-w-auto w-full">
+    <div className="flex flex-col gap-y-10 lg:flex-row mx-5 justify-between sm:items-center content-center max-w-auto w-full ">
       <div className="flex justify-start text-justify flex-col py-12 px-5 max-w-md mx-20">
         <span className="bg-cyan-200 h-8 w-24 mt-12 border-6 flex items-center justify-center text-blue-600 font-600 rounded-sm ">Sale 70%</span>
         <div className="mt-7 ">
@@ -37,8 +37,8 @@ export function Hero() {
           <Image className="w-100 h-35 " decoding="async" src={br4} alt="brandlogo" loading="lazy" ></Image>
         </div >
       </div>
-      <div className="flex-shrink-0 bg-orange-100 w-25 h-25 rounded-full mt-8 mx-5 hidden sm:block ">
-        <Image width={600} height={600} decoding="async" src={header} alt="header" loading="lazy" ></Image>
+      <div className="flex-shrink-0 bg-orange-100 w-25 h-25 rounded-full mt-8 mx-5 hidden sm:block flex-auto ">
+        <Image width={500} height={500} decoding="async" src={header} alt="header" loading="lazy" ></Image>
       </div>
 
     </div>
