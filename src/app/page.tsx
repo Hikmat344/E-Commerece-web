@@ -17,7 +17,7 @@ export default async function Home() {
     <Hero/>
     <Promotion/>
     {/* <Prodpage /> */}
-    <Products />
+    {/* <Products /> */}
     <Difference />
     <Newsletter />
     
