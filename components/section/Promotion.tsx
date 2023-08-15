@@ -84,7 +84,7 @@ export default function Promotion() {
             </button>
           </div>
         </div>
-        <div className=" bg-[#efe1c7]">
+        <div className=" bg-[#efe1c7] row-span-2">
           <div className="p-5">
             <p>Flex Sweatshirt</p>
             <p className="text-base">
