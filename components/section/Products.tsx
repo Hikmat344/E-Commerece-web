@@ -23,7 +23,8 @@ export default async function Products() {
 
   return (
     <div className="mt-20">
-        { data.map()
+        {/* changed */}
+        { data.map().title._type.price.image
 
         }
         <div className="items-center justify-center">
